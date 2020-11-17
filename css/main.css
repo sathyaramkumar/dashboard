@@ -15,7 +15,6 @@ body {
 }
 .main {
     display: flex;
-    height: 140vh;
 }
 .sidebar {
     padding: 0px;
@@ -323,4 +322,313 @@ body {
 .statustic-card-body p small {
     color: var(--text-muted);
     margin-left: 25px;
+}
+
+/* table */
+.table {
+    width: 1200px;
+    margin: 70px auto auto auto;
+    background-color: var(--white);
+    padding: 0;
+}
+.checkbox-id {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+th {
+    padding: 10px;
+}
+td {
+    padding: 20px;
+}
+td svg {
+    width: 8px;
+    height: 8px;
+}
+thead tr{
+    background-color: var(--text-muted);
+}
+
+/* progress-cards */
+/* progress vertical */
+.progress-year-income-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 50px auto;
+}
+.progress-card-year {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px 0 30px;
+}
+.progress-bar-year {
+    display: flex;
+    margin-left: 20px;
+}
+.year-progress-bar-green {
+    background-color: #48cae43b;
+    height: 200px;
+    width: 40px;
+    margin-right: 10px;
+}
+.progress-body:nth-child(1) .year-progress {
+    background-color: #48cae4;
+    height: 50px;
+    width: 40px;
+    margin-top: 150px;
+}
+.progress-body:nth-child(2) .year-progress {
+    background-color: #48cae4;
+    height: 80px;
+    width: 40px;
+    margin-top: 120px;
+}
+.progress-body:nth-child(3) .year-progress {
+    background-color: #48cae4;
+    height: 100px;
+    width: 40px;
+    margin-top: 100px;
+}
+.year-progress-bar-red {
+    background-color: #ed4d6d31;
+    height: 200px;
+    width: 40px;
+}
+.progress-body:nth-child(1) .year-progress-red {
+    background-color: #f87575;
+    height: 70px;
+    width: 40px;
+    margin-top: 130px;
+}
+.progress-body:nth-child(2) .year-progress-red {
+    background-color: #f87575;
+    height: 80px;
+    width: 40px;
+    margin-top: 120px;
+}
+.progress-body:nth-child(3) .year-progress-red {
+    background-color: #f87575;
+    height: 30px;
+    width: 40px;
+    margin-top: 170px;
+}
+.progress-card-footer {
+    margin-top: auto;
+    margin-left: 20px;
+}
+.progress-card-footer svg {
+    width: 10px;
+    height: 10px;
+}
+.progress-card-footer small {
+    font-size: 10px;
+    color: var(--text-muted);
+}
+.progress-title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* progress harizontal */
+.progress-card-income {
+    background-color: var(--white);
+    padding: 30px 15px 0 15px;
+}
+.year-progress-bar-income-blue {
+    background-color: #48cae43b;
+    width: 700px;
+    height: 15px;
+    border-radius: 3px;
+}
+.progress-body-income:nth-child(1) .year-progress-income {
+    background-color: #48cae4;
+    width: 500px;
+    height: 15px;
+}
+.progress-body-income:nth-child(2) .year-progress-income {
+    background-color: #48cae4;
+    width: 350px;
+    height: 15px;
+}
+.progress-body-income:nth-child(3) .year-progress-income {
+    background-color: #48cae4;
+    width: 400px;
+    height: 15px;
+}
+.year-progress-bar-income-red {
+    background-color: #ed4d6d31;
+    width: 700px;
+    height: 15px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.progress-body-income:nth-child(1) .year-progress-income-red {
+    background-color: #f87575;
+    width: 600px;
+    height: 15px;
+}
+.progress-body-income:nth-child(2) .year-progress-income-red {
+    background-color: #f87575;
+    width: 350px;
+    height: 15px;
+}
+.progress-body-income:nth-child(3) .year-progress-income-red {
+    background-color: #f87575;
+    width: 200px;
+    height: 15px;
+}
+.progress-title-income {
+    margin: 10px 0 10px 0;
+}
+.progress-card-income-footer {
+    margin-top: 10px;
+    color: var(--text-muted);
+}
+.progress-card-income-footer svg {
+    width: 10px;
+    height: 10px;
+}
+
+
+/* growth */
+.growth-card {
+    background-color: var(--white);
+    padding: 20px;
+    margin: 20px auto;
+}
+.growth-card-sub-title {
+    color: var(--text-muted);
+}
+.card-graph {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+.growth-progress {
+    background-color: #8390fa;
+    margin: 20px 10px 0 10px;
+    width: 40px;
+    position: relative;
+}
+.growth-progress:nth-child(1) {
+    height: 10px;
+    margin-top: 110px;
+}
+.growth-progress:nth-child(2) {
+    height: 30px;
+    margin-top: 90px;
+}
+.growth-progress:nth-child(3) {
+    height: 20px;
+    margin-top: 100px;
+}
+.growth-progress:nth-child(4) {
+    height: 50px;
+    margin-top: 70px;
+}
+.growth-progress:nth-child(5) {
+    height: 30px;
+    margin-top: 90px;
+}
+.growth-progress:nth-child(6) {
+    height: 50px;
+    margin-top: 70px;
+}
+.growth-progress:nth-child(7) {
+    height: 60px;
+    margin-top: 60px;
+}
+.growth-progress:nth-child(8) {
+    height: 20px;
+    margin-top: 100px;
+}
+.growth-progress:nth-child(9) {
+    height: 10px;
+    margin-top: 110px;
+}
+.growth-progress:nth-child(10) {
+    height: 5px;
+    margin-top: 115px;
+}
+.growth-progress:nth-child(11) {
+    height: 20px;
+    margin-top: 100px;
+}
+.growth-progress:nth-child(12) {
+    height: 10px;
+    margin-top: 110px;
+}
+.growth-progress:nth-child(13) {
+    height: 40px;
+    margin-top: 80px;
+}
+.growth-progress:nth-child(14) {
+    height: 50px;
+    margin-top: 70px;
+}
+.growth-progress:nth-child(15) {
+    height: 30px;
+    margin-top: 90px;
+}
+.growth-progress:nth-child(16) {
+    height: 30px;
+    margin-top: 90px;
+}
+.growth-progress:nth-child(17) {
+    height: 10px;
+    margin-top: 110px;
+}
+.growth-progress:nth-child(18) {
+    height: 30px;
+    margin-top: 90px;
+}
+.growth-progress:nth-child(19) {
+    height: 40px;
+    margin-top: 80px;
+}
+.growth-progress:nth-child(20) {
+    height: 70px;
+    margin-top: 50px;
+}
+.growth-progress:nth-child(21) {
+    height: 40px;
+    margin-top: 80px;
+}
+.growth-progress:nth-child(22) {
+    height: 90px;
+    margin-top: 30px;
+}
+.growth-progress:nth-child(23) {
+    height: 60px;
+    margin-top: 60px;
+}
+.growth-progress:nth-child(24) {
+    height: 70px;
+    margin-top: 50px;
+}
+.growth-progress::before ,
+.growth-progress::after {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%) scale(0) ;
+    transform-origin: center;
+}
+.growth-progress::before {
+    content: attr(data-tooltip);
+    text-align: center;
+    height: 10px;
+    width: max-content;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.growth-progress:hover::before {
+    transform: scale(1);
 }
