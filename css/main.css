@@ -15,7 +15,7 @@ body {
 }
 .main {
     display: flex;
-    height: 100vh;
+    height: 140vh;
 }
 .sidebar {
     padding: 0px;
@@ -41,6 +41,7 @@ body {
     color: var(--text-muted);
     border: 5px solid transparent;
     padding: 10px 0;
+    width: 220px;
 }
 .nav-link svg {
     width: 20px;
@@ -66,6 +67,7 @@ body {
 }
 .sidebar-footer {
     margin-top: auto;
+    margin-bottom: 20px;
 }
 .sidebar-footer-title {
     text-align: center;
@@ -89,7 +91,7 @@ body {
 /* content */
 .content {
     background-color: var(--light-blue-shadow);
-    width: 90vw;
+    width: 1500px;
     margin-top: 20px;
 }
 
@@ -213,7 +215,7 @@ body {
     border-radius: 0 0 5px 5px;
 }
 .bar {
-    background-color: #c2eb1f;
+    background-color: #70e000;
     width: 75%;
     height: 15px;
 }
@@ -259,4 +261,66 @@ body {
 }
 .statustic-card-title {
     font-size: 17px;
+}
+.statustic-card:nth-child(1) .statustic-card-title  {
+    width: 140px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+.statustic-card:nth-child(2) .statustic-card-title {
+    width: 110px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+.statustic-card:nth-child(3) .statustic-card-title {
+    width: 160px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+.statustic-card:nth-child(4) .statustic-card-title {
+    width: 200px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+.statustic-card:nth-child(5) .statustic-card-title {
+    width: 110px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+.statustic-card:nth-child(6) .statustic-card-title {
+    width: 90px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+.card-value {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px 0 20px 0;
+}
+.card-value span {
+    font-size: 25px;
+    color: #70e000;
+}
+.red span{
+    color: #ff1f3d;
+}
+.card-value span img {
+    width: 15px;
+    height: 15px;
+}
+.statustic-card-body {
+    font-weight: bolder;
+    font-size: 13px;
+}
+.statustic-card-body p {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.statustic-card-body p:last-child {
+    border: none;
+}
+.statustic-card-body svg {
+    width: 15px;
+    height: 15px;
+}
+.statustic-card-body p small {
+    color: var(--text-muted);
+    margin-left: 25px;
 }
